@@ -27,3 +27,11 @@ books
 
 1. **A Malloc Turorial**
 2. 《如何实现一个malloc》
+
+### semaphore
+
+books
+
+1.  [The Little Book of Semaphores – Green Tea Press](https://greenteapress.com/wp/semaphores/)
+2.  [Implementing Condition Variables with Semaphores](https://www.microsoft.com/en-us/research/wp-content/uploads/2004/12/ImplementingCVs.pdf#:~:text=Implementing%20condition%20variables%20out%20of%20a%20simple%20primitive,your%20kernel%20implementer%20to%20provide%20a%20suitable%20primitive.)
+

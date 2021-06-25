@@ -125,3 +125,44 @@ LRU(**Least-Recently/Frequently-Used**) 具有所谓的栈特性(stack property)
 
 先进先出(FIFO)和随机(Random)等显然没有栈特性 因此容易出现异常行为
 
+## Supplementary
+
+### [MMU](https://zhuanlan.zhihu.com/p/73696670)
+
+>   Memory Management Unit 内存管理单元
+
+```mermaid
+graph LR
+MMU--PA-->内存
+
+subgraph CPU
+	执行单元--VA-->MMU
+end
+```
+
+-   VA:虚拟地址
+-   PA:物理地址
+
+>   相当于 MMU 实现 VA到PA的 映射
+
+映射中的两个问题
+
+-   映射粒度
+-   映射规则:由页表描述
+
+
+
+**TLB**:MMU中的页表缓存
+
+
+
+Miss的查询:缓存->主存->磁盘
+
+### [TLB](https://zhuanlan.zhihu.com/p/108425561)
+
+>   translation lookaside buffer
+
+![PT Search](https://pic4.zhimg.com/v2-70f03a91b02fe51cced8cb57fa30d84b_r.jpg "页表查询")
+
+>   本质是一块高速缓存
+
