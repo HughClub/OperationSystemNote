@@ -53,7 +53,7 @@
 
 `<pthread.h>`
 
-编译参数 -pthread` or `-l pthread`
+编译参数 `-pthread` or `-l pthread`
 
 #### mutex
 

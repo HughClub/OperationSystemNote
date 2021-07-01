@@ -103,7 +103,7 @@ PTE:页表项
 
 PDE（至少）拥有有效位（valid bit）和页帧号（page frame number，PFN） 类似于 PTE
 
-PDE有效`-->`则页表上至少一页有效
+PDE有效`=>`则页表上至少一页有效
 
 ### Inverted page table
 

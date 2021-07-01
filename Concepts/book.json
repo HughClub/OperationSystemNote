@@ -15,6 +15,6 @@
         "chapter-fold",
         "-lunr",
         "-search",
-        "search-pro"
-    ]
+        "search-pro",
+        "kalex"
 }
