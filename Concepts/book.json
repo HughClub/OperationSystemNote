@@ -1,0 +1,20 @@
+{
+	"title": "恐龙书笔记",
+    "author": "Hugh",
+    "output.name": "Concept",
+    "language": "zh-hans",
+    "links": {
+        "sidebar": {
+            "Home": "https://github.com/SCU-CS/OperationSystem"
+        }
+    },
+    "plugins": [
+        "todo",
+        "mermaid-gb3",
+        "splitter",
+        "chapter-fold",
+        "-lunr",
+        "-search",
+        "search-pro"
+    ]
+}
